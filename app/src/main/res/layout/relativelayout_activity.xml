@@ -135,7 +135,9 @@
         android:layout_alignBaseline="@id/ratingBtn"
         android:layout_alignStart="@+id/ratingBtn"
         android:layout_alignEnd="@+id/ratingBtn"
-        android:text="@string/ratingTxt" />
+        android:text="@string/ratingTxt"
+        android:textAlignment="center"
+        />
 
 
     <TextView
@@ -146,7 +148,8 @@
         android:layout_alignBaseline="@id/familyBtn"
         android:layout_alignStart="@+id/familyBtn"
         android:layout_alignEnd="@+id/familyBtn"
-        android:text="@string/family" />
+        android:text="@string/family"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/tomatoTxt"
@@ -156,7 +159,8 @@
         android:layout_alignBaseline="@id/similarTxt"
         android:layout_alignStart="@+id/tomatoBtn"
         android:layout_alignEnd="@+id/tomatoBtn"
-        android:text="@string/percentage" />
+        android:text="@string/percentage"
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/similarTxt"
@@ -165,13 +169,14 @@
         android:layout_below="@+id/similarBtn"
         android:layout_alignStart="@+id/similarBtn"
         android:layout_alignEnd="@+id/similarBtn"
-        android:text="@string/similar" />
+        android:text="@string/similar"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin"
         android:text="@string/description"
-        android:textSize="@dimen/descriptionText" />
+        android:textSize="@dimen/descriptionText"/>
 
 </RelativeLayout>
